@@ -11,7 +11,6 @@ import 'hero_service.dart';
   templateUrl: 'hero_list_component.html',
   styleUrls: ['hero_list_component.css'],
   directives: [coreDirectives, HeroComponent],
-  providers: [ClassProvider(HeroService)],
 )
 class HeroListComponent implements OnInit {
   final HeroService _heroService;
