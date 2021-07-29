@@ -8,6 +8,9 @@ import 'route_paths.dart';
 import 'hero_search_service.dart';
 import 'hero.dart';
 
+// ignore_for_file: deprecated_member_use
+// It's debounce and switchMap
+
 @Component(
   selector: 'hero-search',
   templateUrl: 'hero_search_component.html',
